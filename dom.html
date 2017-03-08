@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+	console.log(document.body);
+	var bod = document.body;
+	bod = "<h1>Hello World</h1>";
+
+	var bod = document.body;
+	for (var i = 0; i < 10; i++){
+		bod = "<p>This has gone through the loop completely:" +i+ "time</p>";
+	}
+
+	var paragraphs = document.getElementsByTagName('p');
+	console.log(paragraph);
+	for (var i = 0; i < paragraphs.length; i++){
+		console.log(paragraphs[i].addEventListener);
+		paragraphs[i].addEventListener('click', function(){
+			this.style.background='blue';
+		});
+	}
+	
+	</script>
+</body>
+</html>
